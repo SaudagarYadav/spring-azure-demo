@@ -11,4 +11,11 @@ public class Test {
 		return "Finally deployed";
 	}
 	
+	@GetMapping("/map")
+	public String test1() {
+		return "Another mapping working";
+	}
+	
+	
+	
 }
